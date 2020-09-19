@@ -8,6 +8,6 @@ class DetailController extends Controller
 {
     public function show()
     {
-        return view('detail');
+        return view('news-items.detail');
     }
 }

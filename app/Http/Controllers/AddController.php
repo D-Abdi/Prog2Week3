@@ -8,6 +8,6 @@ class AddController extends Controller
 {
     public function show()
     {
-        return view('add');
+        return view('news-items.add');
     }
 }
