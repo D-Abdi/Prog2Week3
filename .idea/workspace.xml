@@ -10,10 +10,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b734de0-eeb6-4190-81c0-db889271d1cd" name="Default Changelist" comment="+ Nieuws artikelen zijn te zien.&#10;+ Link verwijst door naar uitgebreide beschrijving van artikels.&#10;&#10;- CSS werkt nog niet&#10;- index is niet de hoofdpagina waardoor je /news moet gebruiken om content te zien.">
+    <list default="true" id="8b734de0-eeb6-4190-81c0-db889271d1cd" name="Default Changelist" comment="+ Create pagina aangemaakt&#10;+ Gegevens kunnen ingevuld worden&#10;&#10;- CSS werkt niet&#10;- news is niet de main page&#10;- Verzonden formulier wordt niet getoond">
+      <change afterPath="$PROJECT_DIR$/app/Models/News.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Student.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NewsItemController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/NewsItemController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/news-items/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/news-items/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_21_104229_create_news_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_21_102448_create_students_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,6 +155,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/news-items" />
@@ -189,7 +197,9 @@
       <workItem from="1600164587042" duration="2739000" />
       <workItem from="1600432142389" duration="1253000" />
       <workItem from="1600520487421" duration="5252000" />
-      <workItem from="1600534118158" duration="316000" />
+      <workItem from="1600534118158" duration="451000" />
+      <workItem from="1600599785262" duration="874000" />
+      <workItem from="1600683659484" duration="8263000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1600159643560</created>
@@ -205,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600523241103</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="+ Create pagina aangemaakt&#10;+ Gegevens kunnen ingevuld worden&#10;&#10;- CSS werkt niet&#10;- news is niet de main page&#10;- Verzonden formulier wordt niet getoond">
+      <created>1600534556823</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600534556823</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,9 +244,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="+ Nieuws artikelen zijn te zien.&#10;+ Link verwijst door naar uitgebreide beschrijving van artikels.&#10;&#10;- CSS werkt nog niet&#10;- index is niet de hoofdpagina waardoor je /news moet gebruiken om content te zien." />
-    <option name="LAST_COMMIT_MESSAGE" value="+ Nieuws artikelen zijn te zien.&#10;+ Link verwijst door naar uitgebreide beschrijving van artikels.&#10;&#10;- CSS werkt nog niet&#10;- index is niet de hoofdpagina waardoor je /news moet gebruiken om content te zien." />
+    <MESSAGE value="+ Create pagina aangemaakt&#10;+ Gegevens kunnen ingevuld worden&#10;&#10;- CSS werkt niet&#10;- news is niet de main page&#10;- Verzonden formulier wordt niet getoond" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ Create pagina aangemaakt&#10;+ Gegevens kunnen ingevuld worden&#10;&#10;- CSS werkt niet&#10;- news is niet de main page&#10;- Verzonden formulier wordt niet getoond" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="694" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600684664270">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="694" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600684664270" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1600165735015">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -254,13 +276,21 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600076450996" />
+    <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1600684692163">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="189" height="457" key="HiddenNamespacesPopup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600684692163" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1600087752426">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600087752426" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1600523251191">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1600534561150">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600523251191" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600534561150" />
+    <state x="437" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1600686863751">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="437" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600686863751" />
   </component>
 </project>
