@@ -25,6 +25,8 @@ Route::get('/detail', 'App\Http\Controllers\DetailController@show')->name('detai
 
 
 Route::get('news', 'App\Http\Controllers\NewsItemController@Index')->name('news');
+Route::get('news/{id}', 'App\Http\Controllers\NewsItemController@show')->name('news.show');
+Route::post('news/store', 'App\Http\Controllers\NewsItemController@store')->name('news.store');
 
 Route::get('/about', function () {
     return view('about', [

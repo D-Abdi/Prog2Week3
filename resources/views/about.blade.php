@@ -8,6 +8,7 @@
                     <h1>{{$new->title}}</h1>
                     <p>{{$new->description}}</p>
                     <img src="{{$new->image}}">
+                    <a class="btn btn-light" href="{{route('news.show', $new->id)}}">Lees meer</a>
                 </li>
                 @endforeach
         </ul>
